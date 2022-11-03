@@ -1,8 +1,8 @@
 import classes from './current-weather.module.css'
-
 import React from 'react';
 
 const CurrentWeather = ({data}) => {
+
     return (
         <div className={classes.weather}>
             <div className={classes.top}>
